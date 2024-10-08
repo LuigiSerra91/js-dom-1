@@ -1,11 +1,30 @@
 //Consegna
 //Inseriamo in pagina l’immagine della lampadina spenta che trovate in allegato e accanto un bottone con la scritta “Accendi”.
 //Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare l’immagine della lampadina accesa, sempre in allegato)
+// seleziono gli elementi del DOM
 
-console.log('it works');
+const lampEl = document.getElementById("lampadina")
+const btnEl = document.getElementById("button")
+
+
+ function accendiLampadina() {
+    lamp.src="./img/yellow_lamp.png"
+}
+
+function spegniLampadina() {
+    lamp.src="./img/white_lamp.png"
+}
+
+btn.addEventListener("click", accendiLampadina)
 
 
 
 
-const lampOffEl = document.getElementById('img')
-const turnOffEl = document.getElementById('button')
+btn.addEventListener("click", () => {
+    btn.innerHTML = 'Spegni'
+})
+
+
+
+
+
