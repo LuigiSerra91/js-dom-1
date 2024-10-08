@@ -3,3 +3,8 @@
 //Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare l’immagine della lampadina accesa, sempre in allegato)
 
 console.log('it works');
+
+
+
+
+const lampOffEl = document.getElementById('lampada')
