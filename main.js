@@ -7,22 +7,18 @@ const lampEl = document.getElementById("lampadina")
 const btnEl = document.getElementById("button")
 
 
- function accendiLampadina() {
-    lamp.src="./img/yellow_lamp.png"
-}
 
-function spegniLampadina() {
-    lamp.src="./img/white_lamp.png"
-}
-
-btn.addEventListener("click", accendiLampadina)
+btn.addEventListener("click" , lamp)
 
 
 
 
 btn.addEventListener("click", () => {
     btn.innerHTML = 'Spegni'
+    lamp.src="./img/yellow_lamp.png"
+    
 })
+
 
 
 
