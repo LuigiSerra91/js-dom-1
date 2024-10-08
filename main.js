@@ -16,7 +16,7 @@ btn.addEventListener("click" , lamp)
 btn.addEventListener("click", () => {
     btn.innerHTML = 'Spegni'
     lamp.src="./img/yellow_lamp.png"
-    
+     
 })
 
 
