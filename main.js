@@ -7,4 +7,5 @@ console.log('it works');
 
 
 
-const lampOffEl = document.getElementById('lampada')
+const lampOffEl = document.getElementById('img')
+const turnOffEl = document.getElementById('button')
