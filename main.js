@@ -8,17 +8,21 @@ const btnEl = document.getElementById("button")
 
 
 
-btn.addEventListener("click" , lamp)
+
 
 
 
 
 btn.addEventListener("click", () => {
+if(btn === 'spegni'){
+    btn.innerHTML = ''
+    lamp.src="./img/white_lamp.png"
+}else{
     btn.innerHTML = 'Spegni'
     lamp.src="./img/yellow_lamp.png"
+}
      
 })
-
 
 
 
