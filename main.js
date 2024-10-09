@@ -3,8 +3,8 @@
 //Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare l’immagine della lampadina accesa, sempre in allegato)
 // seleziono gli elementi del DOM
 
-const lampEl = document.getElementById("lampadina")
-const btnEl = document.getElementById("button")
+const lampEl = document.getElementById("lamp")
+const btnEl = document.getElementById("btn")
 
 
 
@@ -13,12 +13,12 @@ const btnEl = document.getElementById("button")
 
 
 
-btn.addEventListener("click", () => {
-if(btn === 'spegni'){
-    btn.innerHTML = ''
+btnEl.addEventListener("click",  () => {
+if(btnEl.textContent.includes('spegni')){
+    btn.innerHTML = 'accendi'
     lamp.src="./img/white_lamp.png"
 }else{
-    btn.innerHTML = 'Spegni'
+    btnEl.innerHTML = 'spegni'
     lamp.src="./img/yellow_lamp.png"
 }
      
