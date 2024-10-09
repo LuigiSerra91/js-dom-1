@@ -14,6 +14,7 @@ const btnEl = document.getElementById("btn")
 
 
 btnEl.addEventListener("click",  () => {
+    
 if(btnEl.textContent.includes('spegni')){
     btn.innerHTML = 'accendi'
     lamp.src="./img/white_lamp.png"
@@ -23,6 +24,9 @@ if(btnEl.textContent.includes('spegni')){
 }
      
 })
+
+
+
 
 
 
